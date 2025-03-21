@@ -24,16 +24,11 @@ function App() {
                   <Route path="/home" element={<Home />} />
                   <Route path="/chats" element={<Chat />} />
                   <Route path="/chatpage" element={<ChatPage />} />
-
-                  
-
-      
                 </> :
                 <>
                   <Route path="/" element={<LogIn />} />
                   <Route path="/login" element={<LogIn />} />
                   <Route path="/register" element={<RegisterForm />} />
-
                   <Route path='*' element={<h1>Page not found</h1>}></Route>
                 </>
             }

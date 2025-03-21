@@ -1,0 +1,42 @@
+.register-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(-120deg, #330000, #D09683);
+    color: #73605B !important;
+  }
+  
+  .register-left {
+    flex: 1;
+    color: var(--primary-color);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .register-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .register-left p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .register-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .register_form {
+    width: 500px;
+    background-color: #D09683;
+    color: #3c302d;
+  }
+  

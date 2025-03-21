@@ -1,0 +1,44 @@
+.chat-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .chat-option {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .chat-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .chat-option h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #330000;
+  }
+  
+  .chat-option p {
+    font-size: 14px;
+    color: var(--primary-color) !important;
+  }
+  .welcome-section h1,p{
+    color: beige !important;
+  }
+  .container{
+    max-width: 1500px !important;
+  }
+  .btn-secure{
+    background-color: #d1a99c !important;
+    font-weight:bold !important;
+    color: #330000 !important;
+    padding: 5px 30px !important;
+  }

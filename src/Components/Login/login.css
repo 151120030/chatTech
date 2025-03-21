@@ -1,0 +1,47 @@
+/* .login-link a {
+    color: #007bff;
+  } */
+  
+  /* login css */
+  .login-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #361e1e !important ;
+  }
+  .login-left {
+    flex: 1;
+    color: var(--primary-color);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(-120deg, #330000, #D09683);
+  
+  }
+  
+  .login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .login_form {
+    width: 500px;
+    background-color: #D09683;
+    color: #330000;
+  }
+  
+  .chat_bg {
+    background-image: url(../../images/chat_bg1.gif);
+    background-size: cover;
+    background-position: center;
+  }
+  .password-field {
+    position: relative;
+  }
+ h1{
+  color: #330000 !important;
+ }

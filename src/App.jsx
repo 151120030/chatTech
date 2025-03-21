@@ -11,7 +11,7 @@ import ChatPage from './Pages/SendChat/ChatPage';
 
 function App() {
   const [logindata, setlogindata] = useState((localStorage.getItem('token')))
-  console.log()
+  console.log("hiiii")
 
   return (
     <>
